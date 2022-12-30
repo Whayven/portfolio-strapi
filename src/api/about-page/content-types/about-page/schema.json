@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Content": {
+      "type": "richtext",
+      "required": true
+    },
+    "linkedin": {
+      "type": "string",
+      "default": "https://www.linkedin.com/in/wayne-foster-jr/"
+    },
+    "github": {
+      "type": "string",
+      "default": "https://github.com/Whayven"
+    },
+    "instagram": {
+      "type": "string",
+      "default": "https://instagram.com/Dyrellius"
+    },
+    "email": {
+      "type": "string",
+      "default": "waynefosterjr@cloud-way.dev"
+    }
+  }
+}
